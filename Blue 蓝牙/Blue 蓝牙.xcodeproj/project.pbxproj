@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA94D3A201B305D00C9A012 /* BlueFunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA94D39201B305D00C9A012 /* BlueFunctionVC.m */; };
+		CBD16CD120175EE600110DE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD16CD020175EE600110DE0 /* AppDelegate.m */; };
+		CBD16CD420175EE600110DE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD16CD320175EE600110DE0 /* ViewController.m */; };
+		CBD16CD720175EE600110DE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD16CD520175EE600110DE0 /* Main.storyboard */; };
+		CBD16CD920175EE600110DE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD16CD820175EE600110DE0 /* Assets.xcassets */; };
+		CBD16CDC20175EE600110DE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD16CDA20175EE600110DE0 /* LaunchScreen.storyboard */; };
+		CBD16CDF20175EE600110DE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD16CDE20175EE600110DE0 /* main.m */; };
+		CBD16CE920175EE600110DE0 /* Blue___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD16CE820175EE600110DE0 /* Blue___Tests.m */; };
+		CBD16CF420175EE600110DE0 /* Blue___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD16CF320175EE600110DE0 /* Blue___UITests.m */; };
+		CBD16D0520175F5D00110DE0 /* libETK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBD16D0320175F5D00110DE0 /* libETK.a */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBD16CE520175EE600110DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD16CC420175EE600110DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD16CCB20175EE600110DE0;
+			remoteInfo = "Blue 蓝牙";
+		};
+		CBD16CF020175EE600110DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD16CC420175EE600110DE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD16CCB20175EE600110DE0;
+			remoteInfo = "Blue 蓝牙";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA94D37201B213B00C9A012 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		CBA94D38201B305D00C9A012 /* BlueFunctionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueFunctionVC.h; sourceTree = "<group>"; };
+		CBA94D39201B305D00C9A012 /* BlueFunctionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueFunctionVC.m; sourceTree = "<group>"; };
+		CBD16CCC20175EE600110DE0 /* Blue 蓝牙.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blue 蓝牙.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD16CCF20175EE600110DE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBD16CD020175EE600110DE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBD16CD220175EE600110DE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBD16CD320175EE600110DE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBD16CD620175EE600110DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD16CD820175EE600110DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD16CDB20175EE600110DE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD16CDD20175EE600110DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD16CDE20175EE600110DE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBD16CE420175EE600110DE0 /* Blue 蓝牙Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue 蓝牙Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD16CE820175EE600110DE0 /* Blue___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Blue___Tests.m"; sourceTree = "<group>"; };
+		CBD16CEA20175EE600110DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD16CEF20175EE600110DE0 /* Blue 蓝牙UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blue 蓝牙UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD16CF320175EE600110DE0 /* Blue___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Blue___UITests.m"; sourceTree = "<group>"; };
+		CBD16CF520175EE600110DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD16D0320175F5D00110DE0 /* libETK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libETK.a; sourceTree = "<group>"; };
+		CBD16D0420175F5D00110DE0 /* ETK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ETK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD16CC920175EE600110DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD16D0520175F5D00110DE0 /* libETK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CE120175EE600110DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CEC20175EE600110DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD16CC320175EE600110DE0 = {
+			isa = PBXGroup;
+			children = (
+				CBD16CCE20175EE600110DE0 /* Blue 蓝牙 */,
+				CBD16CE720175EE600110DE0 /* Blue 蓝牙Tests */,
+				CBD16CF220175EE600110DE0 /* Blue 蓝牙UITests */,
+				CBD16CCD20175EE600110DE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD16CCD20175EE600110DE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD16CCC20175EE600110DE0 /* Blue 蓝牙.app */,
+				CBD16CE420175EE600110DE0 /* Blue 蓝牙Tests.xctest */,
+				CBD16CEF20175EE600110DE0 /* Blue 蓝牙UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD16CCE20175EE600110DE0 /* Blue 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				CBD16D0420175F5D00110DE0 /* ETK.h */,
+				CBD16D0320175F5D00110DE0 /* libETK.a */,
+				CBD16CCF20175EE600110DE0 /* AppDelegate.h */,
+				CBD16CD020175EE600110DE0 /* AppDelegate.m */,
+				CBD16CD220175EE600110DE0 /* ViewController.h */,
+				CBD16CD320175EE600110DE0 /* ViewController.m */,
+				CBA94D38201B305D00C9A012 /* BlueFunctionVC.h */,
+				CBA94D39201B305D00C9A012 /* BlueFunctionVC.m */,
+				CBD16CD520175EE600110DE0 /* Main.storyboard */,
+				CBD16CD820175EE600110DE0 /* Assets.xcassets */,
+				CBD16CDA20175EE600110DE0 /* LaunchScreen.storyboard */,
+				CBD16CDD20175EE600110DE0 /* Info.plist */,
+				CBD16CDE20175EE600110DE0 /* main.m */,
+				CBA94D37201B213B00C9A012 /* Prefix.pch */,
+			);
+			path = "Blue 蓝牙";
+			sourceTree = "<group>";
+		};
+		CBD16CE720175EE600110DE0 /* Blue 蓝牙Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD16CE820175EE600110DE0 /* Blue___Tests.m */,
+				CBD16CEA20175EE600110DE0 /* Info.plist */,
+			);
+			path = "Blue 蓝牙Tests";
+			sourceTree = "<group>";
+		};
+		CBD16CF220175EE600110DE0 /* Blue 蓝牙UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD16CF320175EE600110DE0 /* Blue___UITests.m */,
+				CBD16CF520175EE600110DE0 /* Info.plist */,
+			);
+			path = "Blue 蓝牙UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD16CCB20175EE600110DE0 /* Blue 蓝牙 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD16CF820175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙" */;
+			buildPhases = (
+				CBD16CC820175EE600110DE0 /* Sources */,
+				CBD16CC920175EE600110DE0 /* Frameworks */,
+				CBD16CCA20175EE600110DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blue 蓝牙";
+			productName = "Blue 蓝牙";
+			productReference = CBD16CCC20175EE600110DE0 /* Blue 蓝牙.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBD16CE320175EE600110DE0 /* Blue 蓝牙Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD16CFB20175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙Tests" */;
+			buildPhases = (
+				CBD16CE020175EE600110DE0 /* Sources */,
+				CBD16CE120175EE600110DE0 /* Frameworks */,
+				CBD16CE220175EE600110DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD16CE620175EE600110DE0 /* PBXTargetDependency */,
+			);
+			name = "Blue 蓝牙Tests";
+			productName = "Blue 蓝牙Tests";
+			productReference = CBD16CE420175EE600110DE0 /* Blue 蓝牙Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBD16CEE20175EE600110DE0 /* Blue 蓝牙UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD16CFE20175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙UITests" */;
+			buildPhases = (
+				CBD16CEB20175EE600110DE0 /* Sources */,
+				CBD16CEC20175EE600110DE0 /* Frameworks */,
+				CBD16CED20175EE600110DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD16CF120175EE600110DE0 /* PBXTargetDependency */,
+			);
+			name = "Blue 蓝牙UITests";
+			productName = "Blue 蓝牙UITests";
+			productReference = CBD16CEF20175EE600110DE0 /* Blue 蓝牙UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD16CC420175EE600110DE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "吾诺翰卓";
+				TargetAttributes = {
+					CBD16CCB20175EE600110DE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CBD16CE320175EE600110DE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBD16CCB20175EE600110DE0;
+					};
+					CBD16CEE20175EE600110DE0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBD16CCB20175EE600110DE0;
+					};
+				};
+			};
+			buildConfigurationList = CBD16CC720175EE600110DE0 /* Build configuration list for PBXProject "Blue 蓝牙" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD16CC320175EE600110DE0;
+			productRefGroup = CBD16CCD20175EE600110DE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD16CCB20175EE600110DE0 /* Blue 蓝牙 */,
+				CBD16CE320175EE600110DE0 /* Blue 蓝牙Tests */,
+				CBD16CEE20175EE600110DE0 /* Blue 蓝牙UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD16CCA20175EE600110DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD16CDC20175EE600110DE0 /* LaunchScreen.storyboard in Resources */,
+				CBD16CD920175EE600110DE0 /* Assets.xcassets in Resources */,
+				CBD16CD720175EE600110DE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CE220175EE600110DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CED20175EE600110DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD16CC820175EE600110DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD16CD420175EE600110DE0 /* ViewController.m in Sources */,
+				CBD16CDF20175EE600110DE0 /* main.m in Sources */,
+				CBA94D3A201B305D00C9A012 /* BlueFunctionVC.m in Sources */,
+				CBD16CD120175EE600110DE0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CE020175EE600110DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD16CE920175EE600110DE0 /* Blue___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD16CEB20175EE600110DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD16CF420175EE600110DE0 /* Blue___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBD16CE620175EE600110DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD16CCB20175EE600110DE0 /* Blue 蓝牙 */;
+			targetProxy = CBD16CE520175EE600110DE0 /* PBXContainerItemProxy */;
+		};
+		CBD16CF120175EE600110DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD16CCB20175EE600110DE0 /* Blue 蓝牙 */;
+			targetProxy = CBD16CF020175EE600110DE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBD16CD520175EE600110DE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD16CD620175EE600110DE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD16CDA20175EE600110DE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD16CDB20175EE600110DE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD16CF620175EE600110DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBD16CF720175EE600110DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD16CF920175EE600110DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8MNXPQG5U;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Blue 蓝牙/Prefix.pch";
+				INFOPLIST_FILE = "Blue 蓝牙/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blue\\ 蓝牙",
+					"\"$(SRCROOT)/Blue 蓝牙/libETK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD16CFA20175EE600110DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E8MNXPQG5U;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Blue 蓝牙/Prefix.pch";
+				INFOPLIST_FILE = "Blue 蓝牙/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Blue\\ 蓝牙",
+					"\"$(SRCROOT)/Blue 蓝牙/libETK.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBD16CFC20175EE600110DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH66A9S359;
+				INFOPLIST_FILE = "Blue 蓝牙Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue 蓝牙.app/Blue 蓝牙";
+			};
+			name = Debug;
+		};
+		CBD16CFD20175EE600110DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH66A9S359;
+				INFOPLIST_FILE = "Blue 蓝牙Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blue 蓝牙.app/Blue 蓝牙";
+			};
+			name = Release;
+		};
+		CBD16CFF20175EE600110DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH66A9S359;
+				INFOPLIST_FILE = "Blue 蓝牙UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blue 蓝牙";
+			};
+			name = Debug;
+		};
+		CBD16D0020175EE600110DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH66A9S359;
+				INFOPLIST_FILE = "Blue 蓝牙UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.UNOHACHA.Blue---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blue 蓝牙";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD16CC720175EE600110DE0 /* Build configuration list for PBXProject "Blue 蓝牙" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD16CF620175EE600110DE0 /* Debug */,
+				CBD16CF720175EE600110DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD16CF820175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD16CF920175EE600110DE0 /* Debug */,
+				CBD16CFA20175EE600110DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD16CFB20175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD16CFC20175EE600110DE0 /* Debug */,
+				CBD16CFD20175EE600110DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD16CFE20175EE600110DE0 /* Build configuration list for PBXNativeTarget "Blue 蓝牙UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD16CFF20175EE600110DE0 /* Debug */,
+				CBD16D0020175EE600110DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD16CC420175EE600110DE0 /* Project object */;
+}

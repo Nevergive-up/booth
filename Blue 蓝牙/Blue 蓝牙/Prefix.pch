@@ -1,0 +1,28 @@
+//
+//  Prefix.pch
+//  Blue 蓝牙
+//
+//  Created by 吾诺翰卓 on 2018/1/26.
+//  Copyright © 2018年 吾诺翰卓. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+
+#define kScreenWidth    [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight   [UIScreen mainScreen].bounds.size.height
+
+#define k_NavigationHeight   (kScreenHeight == 812.0 ? 64+24 : 64)
+
+#define kMaxX(X) CGRectGetMaxX(X)
+#define kMaxY(Y) CGRectGetMaxY(Y)
+
+#define kColor(R,G,B,A) [UIColor colorWithRed:R/255.f green:G/255.f blue:B/255.f alpha:A]
+
+#define HOME_COLOR kColor(242, 242, 242, 1)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Prefix_pch */
